@@ -1,0 +1,29 @@
+name: Feature Request
+description: Request a new feature
+title: "[Feature]: "
+labels: ["feature", "triage"]
+projects: ["MOTDgd-Ltd/1"]
+assignees:
+  - octocat
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe what the feature is about
+    validations:
+      required: true
+  - type: checkboxes
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      description: What needs to be done
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any additional notes to help whoever picks this up
+    validations:
+      required: false
