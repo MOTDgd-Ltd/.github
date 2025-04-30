@@ -1,6 +1,5 @@
 name: Chore
 description: A task to do
-title: ""
 labels: ["chore", "triage"]
 projects: ["MOTDgd-Ltd/1"]
 assignees:
