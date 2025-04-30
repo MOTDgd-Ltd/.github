@@ -2,6 +2,7 @@ name: Feature
 description: A feature to be added
 labels: ["feature", "triage"]
 projects: ["MOTDgd-Ltd/1"]
+type: Feature
 assignees:
   - octocat
 body:
