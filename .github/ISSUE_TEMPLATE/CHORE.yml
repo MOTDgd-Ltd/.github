@@ -1,6 +1,6 @@
 name: Task
 description: A task to do
-labels: ["task", "triage"]
+labels: ["triage"]
 type: Task
 projects: ["MOTDgd-Ltd/1"]
 assignees:
@@ -11,13 +11,6 @@ body:
     attributes:
       label: Description
       description: Describe what the needs to be done
-    validations:
-      required: true
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: Acceptance criteria
-      description: What constitutes as done
     validations:
       required: true
   - type: textarea
