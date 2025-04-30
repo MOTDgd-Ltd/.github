@@ -1,0 +1,27 @@
+name: Bug
+description: A bug that needs to be fixed
+labels: ["triage"]
+projects: ["MOTDgd-Ltd/1"]
+type: Bug
+body:
+  - type: textarea
+    id: whats-happening
+    attributes:
+      label: What's happening
+      description: Describe what is happening
+    validations:
+      required: true
+  - type: textarea
+    id: what-should-be-happening
+    attributes:
+      label: What should be happening
+      description: Describe what the behaviour should be
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any additional notes to help whoever picks this up
+    validations:
+      required: false
