@@ -3,8 +3,6 @@ description: A task to do
 labels: ["triage"]
 type: Task
 projects: ["MOTDgd-Ltd/1"]
-assignees:
-  - octocat
 body:
   - type: textarea
     id: description
