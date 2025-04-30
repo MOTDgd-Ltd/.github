@@ -1,6 +1,6 @@
 name: Task
 description: A task to do
-title: "[Task]: "
+title: ""
 labels: ["task", "triage"]
 projects: ["MOTDgd-Ltd/1"]
 assignees:
