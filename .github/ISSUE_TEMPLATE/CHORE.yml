@@ -1,6 +1,7 @@
-name: Chore
+name: Task
 description: A task to do
-labels: ["chore", "triage"]
+labels: ["task", "triage"]
+type: Task
 projects: ["MOTDgd-Ltd/1"]
 assignees:
   - octocat
