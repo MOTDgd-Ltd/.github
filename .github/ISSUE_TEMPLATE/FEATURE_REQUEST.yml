@@ -13,7 +13,7 @@ body:
       description: Describe what the feature is about
     validations:
       required: true
-  - type: checkboxes
+  - type: textarea
     id: acceptance-criteria
     attributes:
       label: Acceptance criteria
