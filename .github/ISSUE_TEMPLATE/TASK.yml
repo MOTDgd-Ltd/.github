@@ -1,7 +1,7 @@
-name: Feature Request
-description: Request a new feature
-title: "[Feature]: "
-labels: ["feature", "triage"]
+name: Task
+description: A task to do
+title: "[Task]: "
+labels: ["task", "triage"]
 projects: ["MOTDgd-Ltd/1"]
 assignees:
   - octocat
@@ -10,7 +10,7 @@ body:
     id: description
     attributes:
       label: Description
-      description: Describe what the feature is about
+      description: Describe what the task is about
     validations:
       required: true
   - type: textarea
